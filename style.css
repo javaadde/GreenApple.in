@@ -168,7 +168,7 @@ body{
         margin-left: -29px;
         font-size: xx-large;
         padding-right: 30px;
-        color: #d3eed8;
+        color: #101311;
     }
     #listed{
         text-align: center;
@@ -180,7 +180,7 @@ body{
 
 
 
-/*   products section   */
+                            /*  ----------- products-video  section  ---------- */
 
 #video-products{
     padding-top: 20px;
@@ -201,7 +201,7 @@ body{
     min-width: 180px;
     width: 180px;
     height: 310px;
-    line-height: 210px;
+    line-height: 310px;
     text-align: center;
     background-color:transparent;
     border-radius: 22px;
@@ -213,4 +213,76 @@ body{
     height: 310px;
     border-radius: 22px;
     box-sizing: border-box;
+}
+
+.wrapper .item:hover{
+    width: 210px;
+    height: 360px; 
+}
+
+
+                          /*           -----products  --  section-----------       */
+
+#imgg{
+    width: 300px;
+    height: 300px;
+    border-radius: 22px;
+}
+
+.main-img-container{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.image-container{
+    align-items: center;
+    margin-top: 10%;
+    padding-top: 0%;
+    margin-bottom: 10%;
+    margin-left: 90px;
+    width: 304px;
+    height: 420px;
+    border: 2px solid rgb(14, 20, 14);
+    border-radius: 22px;
+    
+    background-color: #fff;
+}
+#price{
+    margin-top: 15px;
+    font-size: 22px;
+    color: brown;
+    text-decoration: none;
+}
+#rs{
+    padding-left: 10px;
+}
+.buynow-btn{
+    font-size: 22px;
+    color: #fff;
+  background-color: #319239;
+  margin-top: 10px;
+  margin-left: 100px;
+  border: 1px solid cadetblue;
+  border-radius: 12px;
+}
+
+
+
+.buynow-btn:hover{
+    background-color: #88ff43;
+    color: #000;
+}
+
+@media (max-width :499px ) {
+    .main-img-container{
+        align-items: center;
+        
+    }
+    .image-container{
+      align-items: center;
+      margin-left: 40px;
+    }
+
 }
