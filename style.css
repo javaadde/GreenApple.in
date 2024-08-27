@@ -187,14 +187,14 @@ body{
 }
 .wrapper{
     max-height: 310px;
-    border: 1px solid #333;
+    border: 0px solid #333;
     display: flex;
-    overflow-x: auto;
+    overflow-x:scroll;
     padding-left: 10px;
 }
 .wrapper::-webkit-scrollbar{
     width: 0px;
-    height: 0;
+    height: 0px;
  }
 
 .wrapper .item{
@@ -203,10 +203,10 @@ body{
     height: 310px;
     line-height: 210px;
     text-align: center;
-    background-color: #b1adad;
+    background-color:transparent;
     border-radius: 22px;
-
     box-sizing: border-box;
+    margin-left: 9px;
 }
 .vid{
     width: 180px;
