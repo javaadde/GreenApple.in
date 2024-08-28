@@ -7,7 +7,7 @@
 
 
 body{
-    background: url(images/bakround.jpg);
+    background: url(images/back.avif);
 }
 
 
@@ -224,6 +224,7 @@ body{
                           /*           -----products  --  section-----------       */
 
 #imgg{
+
     width: 300px;
     height: 300px;
     border-radius: 22px;
@@ -252,10 +253,11 @@ body{
 #price{
     margin-top: 15px;
     font-size: 22px;
-    color: brown;
+    color: rgb(228, 91, 27);
     text-decoration: none;
 }
 #rs{
+    color: #000;
     padding-left: 10px;
 }
 .buynow-btn{
@@ -286,3 +288,80 @@ body{
     }
 
 }
+
+ 
+                                /*single-product-section*/
+ 
+
+
+
+   #prodetailes{
+    border-radius: 33px;
+    background-color: #0f0f0f;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   #prodetailes .single-pro-detailes{
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 50%;
+   }
+   
+    #pro-d-body{
+        background-image: url(images/back.avif);
+        backdrop-filter: blur(32px);
+    }                 
+    
+                                
+  .single-pro-image{
+    width: 40%;
+    margin-left: 50px;
+    border-radius: 22px;
+  } 
+  
+  .small-img-group{
+    display: flex;
+    justify-content: space-between;
+  }
+
+   .small-image{
+    border-radius: 12px;
+   }
+   .main-image{
+    border-radius: 22px;
+   }
+
+  .small-img-col{
+    border-radius: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    flex-basis: 24%;
+    cursor: pointer;
+  }
+
+  .buynow{
+    text-decoration: none;
+    border: 0px;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-size: xx-large;
+    background-color: #319239;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  #slt{
+    margin-top: 20px;
+  }
+  #prodetailes .single-pro-detailes select{
+
+    display: block;
+    
+  }
