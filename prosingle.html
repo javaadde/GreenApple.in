@@ -26,31 +26,71 @@
              <section id="prodetailes" class="section-padding">
 
                 <div class="single-pro-image">
-                        <img src="images/doyers-1.png"  alt="" width="100%" class="main-image">
+                        <img src="images/doyers-1.jpeg"  alt="" width="100%" class="main-image" id="M-image" >
 
                         <div class="small-img-group">
 
                             <div class="small-img-col">
-                                <img src="images/doyers-2.webp" alt="" width="100%" class="small-image">
+                                <img src="images/doyers-1.jpeg" alt="" width="100%" class="small-image" >
                             </div>
 
                             <div class="small-img-col">
-                                <img src="images/doyers-2.webp" alt="" width="100%" class="small-image">
+                                <img src="images/doyers-2.jpeg" alt="" width="100%" class="small-image">
                             </div>
 
                             <div class="small-img-col">
-                                <img src="images/doyers-2.webp" alt="" width="100%" class="small-image">
+                                <img src="images/doyers-3.jpeg" alt="" width="100%" class="small-image">
                             </div>
 
                             <div class="small-img-col">
-                                <img src="images/doyers-2.webp" alt="" width="100%" class="small-image">
+                                <img src="images/doyers-5.jpeg" alt="" width="100%" class="small-image">
                             </div>
 
                         </div>
                 </div>
 
+
+<script>
+
+let mainImage = document.getElementById("M-image")
+let smallImage = document.getElementsByClassName("small-image")
+
+smallImage[0].onclick = ()=>{
+    mainImage.src = smallImage[0].src;
+}
+smallImage[1].onclick = ()=>{
+    mainImage.src = smallImage[1].src;
+}
+
+smallImage[2].onclick = ()=>{
+    mainImage.src = smallImage[2].src;
+}
+
+smallImage[3].onclick = ()=>{
+    mainImage.src = smallImage[3].src;
+}
+
+smallImage[4].onclick = ()=>{
+    mainImage.src = smallImage[4].src;
+}
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
                 <div class="single-pro-detailes">
-                    <h1 style="color:rgb(230, 222, 222);">Doyers Case</h1>
+                    <h1 style="color:rgb(230, 222, 222);" id="pro-heading">Doyers Case</h1>
 
                     <h2 id="rs" style="color: aliceblue;"> <br>Rs: <a id="price" href="#" >399/-</a></h2>
             
@@ -78,8 +118,11 @@
 
                 </select>
                      <br>
+                     
                 <button class="buynow">Buy</button>
             </div>
+
+          
              </section>
 
 

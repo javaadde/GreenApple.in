@@ -315,7 +315,7 @@ body{
    }
    
     #pro-d-body{
-        background-image: url(images/back.avif);
+        background-image: url(images/back-d-.jpeg);
         backdrop-filter: blur(32px);
     }                 
     
@@ -358,10 +358,24 @@ body{
   }
 
   #slt{
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
   }
   #prodetailes .single-pro-detailes select{
-
+    border-radius: 10px;
+    background-color: gray;
     display: block;
+    
+  }
+
+
+  @media (max-width:499px) {
+
+    #pro-heading{
+        display: none;
+    }
+   
+       
     
   }
