@@ -375,7 +375,15 @@ body{
     #pro-heading{
         display: none;
     }
-   
-       
-    
+    .single-pro-image{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .single-pro-detailes{
+        margin-top: -30px;
+    }
+    .buynow{
+        margin-bottom: 30px;
+    }
   }
