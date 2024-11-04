@@ -4,16 +4,16 @@
 
 ## ⬛ Languages:-
 
- #### ➡️ htmml
- #### ➡️ css
- #### ➡️ javascript
+ ####        ➡️ htmml
+ ####        ➡️ css
+ ####        ➡️ javascript
 
 ## ⬛ including sections:-
 
-#### ➡️ navbar
-#### ➡️ products
-#### ➡️ single product
-#### ➡️ contact
+####         ➡️ navbar
+####         ➡️ products
+####         ➡️ single product
+####         ➡️ contact
 
 ## Installation
 
@@ -21,4 +21,4 @@ Follow these steps to set up the project:
 
 1. Clone the repository:
    ```bash
-  https://github.com/javaadde/GreenApple.in.git
+  git clone https://github.com/javaadde/GreenApple.in.git
