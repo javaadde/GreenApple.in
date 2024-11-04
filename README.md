@@ -1,18 +1,24 @@
 # An Responsive E-commerce Frontend
-  
 
-## Languages:-
+  ##### view demo :- https://javaadde.github.io/GreenApple.in/
 
- #### -> htmml
- #### -> css
- #### -> javascript
+## ⬛ Languages:-
 
-## including sections:-
+ #### ➡️ htmml
+ #### ➡️ css
+ #### ➡️ javascript
 
-#### -> navbar
-#### -> products
-#### -> single product
-#### -> contact
+## ⬛ including sections:-
+
+#### ➡️ navbar
+#### ➡️ products
+#### ➡️ single product
+#### ➡️ contact
 
 ## Installation
-git clone https://github.com/javaadde/GreenApple.in.git
+
+Follow these steps to set up the project:
+
+1. Clone the repository:
+   ```bash
+  https://github.com/javaadde/GreenApple.in.git
