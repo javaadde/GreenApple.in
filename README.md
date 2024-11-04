@@ -1,14 +1,13 @@
 # An Responsive E-commerce Frontend
   
 
-## Languages:
+## Languages:-
 
 -> htmml
 -> css
 -> javascript
 
-## includs:
-## sections:-
+## including sections:-
 
 -> navbar
 -> products
