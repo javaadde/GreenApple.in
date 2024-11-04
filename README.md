@@ -3,13 +3,13 @@
 
 ## Languages:-
 
- #### htmml
- #### css
- #### javascript
+ #### -> htmml
+ #### -> css
+ #### -> javascript
 
 ## including sections:-
 
-#### navbar
-#### products
-#### single product
-#### contact
+#### -> navbar
+#### -> products
+#### -> single product
+#### -> contact
